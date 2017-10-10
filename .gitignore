@@ -14,3 +14,8 @@ composer.lock
 config/datatables*
 .DS_Store
 dump.rdb
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
